@@ -2,10 +2,19 @@
 //
 
 #include "stdafx.h"
+#include "String.h"
+#include <iostream> 
+#include <cstring> // для strcpy(), и т.д. using namespace std; /////////////////////////////////////////////////////////// 
 
+
+using namespace std;
 
 int main()
 {
-    return 0;
+	String s1 = "test string";
+	cout << "s1 = ";
+	s1.display();
+	system("pause");
+	return 0;
 }
 
