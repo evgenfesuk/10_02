@@ -11,8 +11,10 @@ using namespace std;
 
 int main()
 {
-	String s1 = "test string";
+	String s1 = "test string2";
 	cout << "s1 = ";
+	s1.display();
+	s1.upIt();
 	s1.display();
 	system("pause");
 	return 0;
