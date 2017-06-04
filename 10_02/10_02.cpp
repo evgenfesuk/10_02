@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-	String s1 = "test string2";
+	String s1 = "test string\n";
 	cout << "s1 = ";
 	s1.display();
 	s1.upIt();
